@@ -1,0 +1,17 @@
+
+user@Hanuma MINGW64 ~/OneDrive/Desktop/CIC-526
+$ echo "Hello world" | awk '{print $1}'echo Ullas'
+> ^C
+
+user@Hanuma MINGW64 ~/OneDrive/Desktop/CIC-526
+$ echo "Hello world" | awk '{print $1}+ echo Ullas'
+
+Hello
+Hello world
+
+user@Hanuma MINGW64 ~/OneDrive/Desktop/CIC-526
+$ echo "Hello world Ullas" | awk '{print $1, $3}'
+Hello Ullas
+
+user@Hanuma MINGW64 ~/OneDrive/Desktop/CIC-526
+$
